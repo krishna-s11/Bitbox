@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    margin-left: 21px;
+}
+#register{
+    height: 40px;
+    width: 170px;
+    margin: 40px;
+    padding: 20px 0px 40px 0px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+img{
+    height: 300px;
+    width: 350px;
+}
+.a{
+    width: 410px;
+}
+#navimg{
+    height: 45px;
+    width: 50px;
+}
+#login{
+    height: 35px;
+    width: 100px;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    color: rgb(44, 247, 247);
+}
+#signup{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(32, 199, 199);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+form{
+    margin-right: 20px;
+}
+
+#first_heading{
+    margin: 40px;
+    padding-top: 100px;
+    
+}
+#toppara{
+    /* padding-bottom: 20px; */
+    padding-top: 60px;
+    margin-bottom: 0px;
+}
+#top{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(38, 173, 173);
+    color: whitesmoke;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.bhooka_pyasa{
+    position: absolute;
+    bottom: -150px;
+    left: -50px;
+    opacity: 0.4;
+
+}
+.one{
+    background-image: url("https://th.bing.com/th/id/OIP.y4Keg5SN-mYl2yabJUrDrAHaE6?pid=ImgDet&rs=1");
+    height: 300px;
+    color: white;
+    background-size: cover;
+}
+.two{
+    background-image: url("https://th.bing.com/th/id/R998541f7ab300e71f3908a5dfd2446b5?rik=wiQk20k4Ywv3Tw&riu=http%3a%2f%2ffarm9.staticflickr.com%2f8197%2f8201444395_495ef5fda2_z.jpg&ehk=yPR35OkZbsS9BW63fWkUjckdLdWbJErxOmxHxFNXbNs%3d&risl=&pid=ImgRaw");
+    height: 300px;
+    color: white;
+    background-size: cover;
+
+}
+.three{
+    background-image: url("https://i1.wp.com/faithfulcitizen.net/wp-content/uploads/2015/02/Children-Eating.jpg");
+    height: 300px;
+    color: white;
+    background-size: cover;
+
+}
+.four{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/736x/ee/84/40/ee8440bfe6acc7d0cf2920a7c4995ac4.jpg");
+    height: 300px;
+    color: white;
+    background-size: cover;
+
+}
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#no{
+    color: red;
+}
+#second_heading{
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+#midpara{
+    padding: 50px 350px 50px 350px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+}
+#share{
+    opacity: 0.5;
+    font-weight: bold;
+}
+#shareyour{
+    color: aqua;
+    opacity: 0.3;
+}
+.container{
+    margin-top: 50px;
+}
+#third_first{
+    text-align: center;
+    background-color: gray;
+    margin-left: 50px;
+    margin-right: 250px;
+}
+#third_second{
+    margin-left: -100px;
+    text-align: left;
+    
+}
+#third_second h1{
+    text-align: left;
+    font-size: 70px;
+}
+#third_second p{
+    font-size: 25px;
+    font-weight: 100;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fourth_part{
+    margin-top: 35px;
+    margin-bottom: 70px;
+    padding: 25px 50px 25px 50px;
+    background-color: rgb(38, 173, 173);
+    color: whitesmoke;
+    text-align: center;
+
+}
+.fourth_part p{
+    font-size: 40px;
+}
+#call{
+    font-weight: bolder;
+}
+#num{
+    font-weight: bold;
+}

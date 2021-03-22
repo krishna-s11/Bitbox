@@ -136,11 +136,15 @@ form{
     margin-bottom: -40px;
 }
 #midpara{
-    padding: 50px 350px 50px 350px;
+    padding: 50px 0px 50px 0px;
     font-weight: bold;
     font-style: italic;
     text-align: center;
     font-size: 20px;
+}
+.Aaryan_gandu_hai{
+    width: 60%;
+    margin: 0 auto;
 }
 #share{
     opacity: 0.5;
@@ -191,4 +195,75 @@ form{
 }
 #num{
     font-weight: bold;
+}
+/* @media only screen and (max-width:1200px){
+    #top{
+        display: flex;
+        flex-direction: column;
+        background-color: purple;
+        color: whitesmoke;
+        height: 100vh; 
+    }
+} */
+.fifth_part{
+    background-color: rgb(23, 33, 34);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top_part{
+    display: flex;
+    flex: row;
+   
+}
+#left_part{
+    display: flex;
+    flex: 1;
+    margin-top: 50px;
+    flex-direction: column;
+    margin-left: 5%;
+}
+#top_left_second{
+    margin-left: 20%;
+    margin-top: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#top_left_second h3{
+    margin: 20px 10px 20px 10px;
+}
+#top_left_second h4{
+    margin: 20px 10px 20px 10px;
+}
+#right_part{
+    display: flex;
+    flex: 1;
+    margin-top: 50px;
+    flex-direction: column;
+}
+#right_part form{
+    display: flex;
+    
+    flex-direction:column ;
+}
+#right_part form input{
+    background-color: rgb(38, 173, 173);
+    margin: 10px 200px 10px 200px;  
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#right_part form ::placeholder { 
+    color: white;
+    font-weight: bold;
+  }
+#right_part form textarea{
+    background-color: rgb(38, 173, 173);
+    margin: 40px 200px 40px 200px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#right_part form button{
+    background-color: rgb(38, 173, 173);
+    height: 20%;
+    width: auto;
+    margin: 40px 200px 40px 200px;
+    color: white;
 }

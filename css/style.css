@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* .navbar{
+    display: flex !important;
+    flex-direction: column !important;
+} */
+.navimage{
+    overflow: hidden;
+    width: 50%;
+}
+#navimg{
+    height: 60px;
+}
 .navbar-brand{
     margin-left: 21px;
 }
@@ -14,14 +25,6 @@
     background-color: white;
     border-radius: 30px;
     border: 1px solid white;
-}
-img{
-    height: 300px;
-    width: 350px;
-}
-#navimg{
-    height: 45px;
-    width: 50px;
 }
 #login{
     height: 35px;
@@ -68,16 +71,17 @@ form{
     z-index: 0;
 
 }
-.bhooka_pyasa{
+.image1{
     position: absolute;
     bottom: -150px;
     left: -50px;
     opacity: 0.4;
 
 }
-.dirty_minded{
+.image2{
     position: absolute;
-    
+    height: 50%;
+    width: 30%;
     top: 50%;
     left: 47%;
     transform: translate(-50%, -50%) scale(1.5);
@@ -85,14 +89,18 @@ form{
     z-index: -1;
     
 }
-.gareeb{
+.image3{
     position: absolute;
+    height: 70%;
+    width:20%;
     top: -10%;
     right: -9%;
     transform: scale(0.6);
 }
-.lol{
+.image4{
     position: absolute;
+    /* height: 60%;
+    width: 20%; */
     bottom: -45%;
     right: 25%;
     transform: scale(0.7);
@@ -142,7 +150,7 @@ form{
     text-align: center;
     font-size: 20px;
 }
-.Aaryan_gandu_hai{
+.OurMissionPara{
     width: 60%;
     margin: 0 auto;
 }
@@ -162,6 +170,10 @@ form{
     background-color: gray;
     margin-left: 50px;
     margin-right: 250px;
+}
+#third_img{
+    height: 75%;
+    width: 85%;
 }
 #third_second{
     margin-left: -100px;

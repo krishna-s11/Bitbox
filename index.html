@@ -1,101 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title></title>
-        <link href="css/style.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
-        rel="stylesheet" 
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
-        crossorigin="anonymous">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    </head>
-    
-    <body>
-        <div id="top">
-        <nav class="navbar navbar-dark justify-content-between " style="background-color: rgb(38, 173, 173);";>
-            <a class="navbar-brand"><strong><img id="navimg" src="https://cdn2.iconfinder.com/data/icons/hotel-service-line/100/34-512.png"> HUNGER</strong></a>
-            <form class="form-inline">
-              <button id="login" type="button"><strong>LOGIN</strong></button>
-              <button id="signup" type="button"><strong>SIGN UP</strong></button>
-            </form>
-        </nav>
-
-        <div class="container">
         
-        <h1 id="first_heading"><strong>WE PROVIDE FOOD TO THE NEEDY</strong></h1>
-        <button type="button" id="register"><strong>REGISTER NOW</strong></button>
-        <p id="toppara">JOIN OUR MISSION TO REMOVE HUNGER AND AVOID WASTAGE</p>
-        <img class="bhooka_pyasa" src="https://static.thenounproject.com/png/74649-200.png">
-        <img class="dirty_minded" src="assets/Hunger1.png">
-        <img class="gareeb" src="assets/poorperson.png">
-        <img class="lol" src="assets/nohunger.png">
-        </div>
-        </div>
-        <div class = "container1">
-            
-                <div class="one">Delhi</div>
-                <div class="two">Assam</div>
-                <div class="three">Kolkata</div>
-                <div class="four">Mumbai</div>
-            
-        </div>
-        <div>
-            <h1 id="second_heading" align=center><strong>OUR MISSION</strong></h1>
-            <h1 align=center><strong>_______</strong></h1>
-            <div class="Aaryan_gandu_hai"> 
-            <p id="midpara">We are the group of people working hard to remove hunger from our country and we need your support. This is about distributing leftover
-                food to avoid wastage and feed the starving poor. If you areunemploed and underqualified, join us to deliver the food to needy. Our 
-                goal is to reach the stage where no poor dies due to starvation.
-            </p>
-            </div>
-             <h3 align=center id="share"><span id="shareyour">SHARE YOUR</span> FOOD</h3>
-             <br>
-             <h2 align=center><strong>BE A PART OF MISSION #<span id="no">NO</span>HUNGER</strong></h2>
-        </div> 
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-sm" id="third_first"><img src="https://dwglogo.com/wp-content/uploads/2020/05/1200px-YouTube_logo.png"></div>
-                <div class="col-xl">
-                    <div id="third_second">
-                        <h1><strong>KNOW</strong> MORE</h1>
-                        <p>
-                            According to the report, 14 percent of India's population is undernourished. It also says that the country
-                            recorded a child stunting rate of 37.4 percent.
-                        </p>
-                        <p>
-                            In the 2020 Global Hunger Index, India ranks 94th out of the 107 countries.
-                        </p>
+        <link rel="stylesheet" href="css/icon-font.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <script src="https://kit.fontawesome.com/4ec9fc748c.js" crossorigin="anonymous"></script>
+        <title>Natours | Exciting tours for adventurous people</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo-box">
+                <img src="img/hunger-logo.png" alt="Logo" class="logo">
+                <div>
+                    <a href="pages/sign-in/index.html" class="btn btn-white sign-up"><b>Login</b></a>
+                    <a href="pages/signUP-validation/index.html" class="btn btn-white sign-up" id="signup"><b>Sign Up</b></a>
+                </div>
+            </div>
+            <div class="textbox">
+                <h1 class="heading-primary">
+                    <span class="heading-primary-main"><b>We provide food to <span style="color: red;">the needy</span></b></span>
+                    <span class="heading-primary-sub">Join our mission to remove<span style="color: red;">hunger</span> and avoid<span style="color: red;">wastage</span>.</span>
+                </h1>
+                <a href="./pages/signUP-validation/index.html" class="btn btn-white">Register</a>  
+            </div>
+        </header>        
+        <main>
+            <section class="section-about">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">Be part of our mission <span style="color: transparent; background-image: linear-gradient(to right bottom, rgba(255, 0, 0, 0.8), rgba(187, 5, 5, 0.845)); -webkit-background-clip: text;">#NOHUNGER</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <h3 class="heading-tertiary u-margin-bottom-small mission mission-text">
+                "We are the group of people working hard to remove hunger from our country and we need your support. This is about distributing leftover
+                food to avoid wastage and feed the starving poor. If you are unemployed or underqualified, join us to deliver the food to needy. Our 
+                goal is to reach the stage where no poor dies due to starvation."
+                        </h3>
+                        <a href="#btn-text" id="btn-text" class="btn-text mission">Learn More &rarr;</a>
+                    </div>
+                    <div class="col-1-of-2">
+                        <div class="composition">
+                            <img src="https://th.bing.com/th/id/R998541f7ab300e71f3908a5dfd2446b5?rik=wiQk20k4Ywv3Tw&riu=http%3a%2f%2ffarm9.staticflickr.com%2f8197%2f8201444395_495ef5fda2_z.jpg&ehk=yPR35OkZbsS9BW63fWkUjckdLdWbJErxOmxHxFNXbNs%3d&risl=&pid=ImgRaw" alt="Photo1" class="composition__photo composition__photo--p1">
+                            <img src="https://i1.wp.com/faithfulcitizen.net/wp-content/uploads/2015/02/Children-Eating.jpg" alt="Photo2" class="composition__photo composition__photo--p2">
+                            <img src="https://s-media-cache-ak0.pinimg.com/736x/ee/84/40/ee8440bfe6acc7d0cf2920a7c4995ac4.jpg" alt="Photo3" class="composition__photo composition__photo--p3">
+                        </div>
                     </div>
                 </div>
+            </section>
+                    <section class="book">
+                        <div class="book__form">
+                           <h1 class="map-text"><span style="color: red;">30 minutes</span> and someone starving will be happy because of <span style="color: red;">you</span></h1>
+                           <a href="#" class="btn btn-white map-register">Register</a>
+                        </div>
+                    </div>
+                </section>
+                <section class="intro-video">
+                    <div class="u-center-text u-margin-bottom-big">
+                        <h2 class="heading-secondary">Know more about us.</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-1-of-2">
+                            <h3 class="heading-tertiary u-margin-bottom-small mission mission-text">
+                    "According to the report, 14 per cent of India's population is undernourished. It also says that
+                    the country recorded a child stunting rate of 37.4 percent.
+                            </h3>
+                            <h3 class="heading-tertiary u-margin-bottom-small mission mission-text">
+                            In the 2020 Global Hunger Index, India ranks 94th out of the 107 countries.""
+                            </h3>
+                            <a href="#btn-text" id="btn-text" class="btn-text mission">Learn More &rarr;</a>
+                        </div>
+                        <div class="col-1-of-2">
+                            <div class="composition">
+                                <img src="img/info-video.png" alt="Photo1" class="info-video">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__logo-box">
+                <img src="img/hunger-white.png" alt="Full Logo" class="footer__logo">
             </div>
-        </div>
-        <div class="fourth_part">
-            <p>Want to work with us? <span id="call">CALL NOW ON </span><span id="num">+788 988 044</span></p>
-        </div>
-        <div class="fifth_part">
-            <div id="top_part">
-                <div id="left_part">
-                    <h1>HUNGER</h1>
-                    <div id="top_left_second">
-                        <h3>CONTACT US!</h3>
-                        <h4>Call : 788 988 044</h4>
-                        <h4>Mail : nohunger@gmail.com</h4>
+            <div class="footer-content">
+                <div class="contact">
+                    <div>
+                        <h1 class="heading-primary" style="padding-bottom: 0;">
+                            <span class="heading-primary-sub" style="font-size: 30px; margin-bottom:0; border-bottom: 1px solid #777; padding-bottom: 1rem;">contact us</span>
+                        </h1>
+                        <a href="tel:8800312995" type="mobile" class="footer__link" style="font-size: 18px; margin-bottom:15px;"><i class="fas fa-phone-alt fa-2x" style="transform: translateY(5px); margin-right: 15px;"></i>9123455666</a><br>
+                        <a href="mailto:no.hunger@gmail.com" target="_blank" type="mobile" class="footer__link" style="font-size: 18px; margin-bottom: 50px;"><i class="far fa-envelope fa-2x" style="transform: translateY(5px); margin-right: 15px;"></i>no.hunger@gmail.com</a>
+                    </div>
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">Follow us @</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link"><i class="fab fa-instagram fa-2x" style="transform: translateY(5px);"></i></a></li>
+                            <li class="footer__item"><a href="#" class="footer__link"><i class="fab fa-facebook fa-2x" style="transform: translateY(5px);"></i></a></li>
+                            <li class="footer__item"><a href="#" class="footer__link"><i class="fab fa-twitter fa-2x" style="transform: translateY(5px);"></i></a></li>
+                            <li class="footer__item"><a href="#" class="footer__link"></a></li>
+                            <li class="footer__item"><a href="#" class="footer__link"></a></li>
+                            <li class="footer__item"><a href="#" class="footer__link"></a></li>
+                        </ul>
                     </div>
                 </div>
-                <div id="right_part" align="center">
-                    <form>
-                        <input type="text" placeholder="Name" >
-                        <input type="email" placeholder="Email">
-                        <textarea rows="4" placeholder="Enquiry"></textarea>
-                        <button type="submit">SUBMIT</button>
-                    </form>
+                <div class="form">
+                        <h1 class="heading-primary-sub say-hello" style="margin-bottom: 5rem; font-size: 30px; text-transform: uppercase;">Say hello.</h1>
+                        <div class="form__group">
+                            <input type="text" class="form__input" id="name" placeholder="Full Name" required>
+                            <label for="name" class="form__label">Full name</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="tel" pattern="[0-9]{10}"class="form__input" id="email" placeholder="Mobile Number" required>
+                            <label for="phone" class="form__label">Mobile number<label>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" class="form__input" id="email" placeholder="Email" required>
+                            <label for="email" class="form__label">Email<label>
+                        </div>
+                        <div class="form__group">
+                            <textarea name="message" rows="6" class="form__input" id="email" placeholder="Comment" required></textarea>
+                        </div>
+                        
+                        <div class="form__group">
+                            <button class="btn btn-white get-call">Get a call &rarr;</button>
+                        </div>
                 </div>
             </div>
-            <div id="bottom_part">
-                
-            </div>
-        </div>
+        </footer>
     </body>
-</html>
+        <script src="iziModal.min.js" type="text/javascript"></script> 
+</html> 

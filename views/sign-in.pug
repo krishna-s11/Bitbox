@@ -1,0 +1,37 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  script(src='https://kit.fontawesome.com/4ec9fc748c.js', crossorigin='anonymous')
+  link(rel='stylesheet', href='style.css')
+  title ZeroHunger | Sign-In
+.container
+  .card
+    .card-img
+      p.heading
+        | Start Helping 
+        span(style='color: red;') Today
+        | !
+      p.heading-sub  Sharing is caring.
+      a.btn.btn-blue(href='../sign-up/index.html') Register
+    .card-content
+      a(href='../../index.html')
+        .logo-box
+          img.logo(src='../../img/hunger-logo.png', alt='Logo')
+      .form
+        h1.form__heading Welcome Back!
+        .form-group
+          input.form__input(type='email', name='email', placeholder='Email address')
+          label.form__label(for='email') Email address
+        .form-group
+          input.form__input(type='password', name='password', placeholder='Password')
+          label.form__label(for='password') Password
+        .lower_content
+          div
+            input#vehicle1.check_sign-in(type='checkbox', name='vehicle1', value='Bike')
+            label.check__label(for='vehicle1') Stay Signed In
+          a.forgotpass(href='#')
+            i.fas.fa-lock
+            | &amp;nbsp Forgot Password?
+        a.btn.btn-blue.btn__sign-in(href='#') Sign In

@@ -1,4 +1,4 @@
-m*{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -127,7 +127,7 @@ height: 3rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .form__heading{
     font-size: 2rem;
@@ -199,5 +199,5 @@ height: 3rem;
     margin-left: 6px;
 }
 .btn__sign-in{
-    margin-top:  1.5rem;   
+    margin-top:  2rem;   
 }

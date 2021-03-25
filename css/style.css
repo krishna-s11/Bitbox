@@ -34,7 +34,8 @@
     box-sizing: border-box; }
 
   html {
-    font-size: 10px; }
+    font-size: 10px;
+  }
 
   body {
     font-family: "Lato", sans-serif;
@@ -439,7 +440,7 @@
 .map-register{
   position: absolute;
   top:50%;
-  left: 35%;
+  left: 28%;
 }
 
 .intro-video{

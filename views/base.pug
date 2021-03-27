@@ -14,9 +14,9 @@ html(lang='en')
       .logo-box
         img.logo(src='img/hunger-logo.png' alt='Logo')
         div
-          a.btn.btn-white.sign-up(href='pages/sign-in/index.html')
+          a.btn.btn-white.sign-up(href='signin')
             b Login
-          a#signup.btn.btn-white.sign-up(href='pages/sign-up/index.html')
+          a#signup.btn.btn-white.sign-up(href='signup')
             b Sign Up
       .textbox
         h1.heading-primary
@@ -28,7 +28,7 @@ html(lang='en')
             | and avoid
             span(style='color: red;') wastage
             | .
-        a.btn.btn-white(href='./pages/donate/index.html') Donate 
+        a.btn.btn-white(href='/donate') Donate 
           span(style='color:red') Now!
     main
       section.section-about
@@ -69,7 +69,8 @@ html(lang='en')
             a#btn-text.btn-text.mission(href='https://www.indiafoodbanking.org/hunger' target='_blank') Learn More &rarr;
           .col-1-of-2
             .composition
-              img.info-video(src='img/info-video.png' alt='Photo1')
+              iframe(width='560', height='315', src='https://www.youtube.com/embed/uTan2aCXAUQ', title='YouTube video player', frameborder='0', allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+              
     footer#reachUs.footer
       div(class='footer__logo-box')
         img(src='img/hunger-white.png' alt='Full Logo' class='footer__logo')
@@ -90,13 +91,13 @@ html(lang='en')
               li(class='footer__item')
                 a(href='#' class='footer__link') Follow us @
               li(class='footer__item')
-                a(href='#' class='footer__link')
+                a(href='https://www.instagram.com/gautamgrover4418/' target="_blank" class='footer__link')
                   i.fab.fa-instagram.fa-2x(style='transform: translateY(5px);')
               li(class='footer__item')
                 a(href='#' class='footer__link')
                   i.fab.fa-facebook.fa-2x(style='transform: translateY(5px);')
               li(class='footer__item')
-                a(href='#' class='footer__link')
+                a(href='https://twitter.com/SinghManeka' target="_blank" class='footer__link')
                   i.fab.fa-twitter.fa-2x(style='transform: translateY(5px);')
               li(class='footer__item')
                 a(href='#' class='footer__link')
@@ -112,13 +113,10 @@ html(lang='en')
           div(class='form__group')
             input#email(type='tel' pattern='[0-9]{10}' class='form__input' placeholder='Mobile Number' required)
             label(for='phone' class='form__label') Mobile number
-              label
-                div(class='form__group')
-                  input#email(type='email' class='form__input' placeholder='Email' required)
-                  label(for='email' class='form__label') Email
-                    label
-                      div(class='form__group')
-                        textarea#email(name='message' rows='6' class='form__input' placeholder='Comment' required)
-                      div(class='form__group')
-                        button.btn.btn-white.get-call Get a call &rarr;
-                      script(src='iziModal.min.js' type='text/javascript')
+          div(class='form__group')
+            input#email(type='email' class='form__input' placeholder='Email' required)
+            label(for='email' class='form__label') Email
+          div(class='form__group')
+            textarea#email(name='message' rows='6' class='form__input' placeholder='Comment' required)
+          div(class='form__group')
+            button.btn.btn-white.get-call Get a call &rarr;

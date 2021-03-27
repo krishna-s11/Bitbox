@@ -4,7 +4,7 @@ head
   meta(http-equiv='X-UA-Compatible', content='IE=edge')
   meta(name='viewport', content='width=device-width, initial-scale=1.0')
   script(src='https://kit.fontawesome.com/4ec9fc748c.js', crossorigin='anonymous')
-  link(rel='stylesheet', href='style.css')
+  link(rel='stylesheet', href='css/signin.css')
   title ZeroHunger | Sign-In
 .container
   .card
@@ -14,18 +14,18 @@ head
         span(style='color: red;') Today
         | !
       p.heading-sub  Sharing is caring.
-      a.btn.btn-blue(href='../sign-up/index.html') Register
+      a.btn.btn-blue(href='/signup') Register
     .card-content
-      a(href='../../index.html')
+      a(href='/')
         .logo-box
           img.logo(src='../../img/hunger-logo.png', alt='Logo')
       .form
         h1.form__heading Welcome Back!
         .form-group
-          input.form__input(type='email', name='email', placeholder='Email address')
+          input#email.form__input(type='email', name='email', placeholder='Email address')
           label.form__label(for='email') Email address
         .form-group
-          input.form__input(type='password', name='password', placeholder='Password')
+          input#password.form__input(type='password', name='password', placeholder='Password')
           label.form__label(for='password') Password
         .lower_content
           div
@@ -33,5 +33,7 @@ head
             label.check__label(for='vehicle1') Stay Signed In
           a.forgotpass(href='#')
             i.fas.fa-lock
-            | &amp;nbsp Forgot Password?
-        a.btn.btn-blue.btn__sign-in(href='#') Sign In
+            | &nbsp Forgot Password?
+        a(href="/dashboard").btn.btn-blue.btn__sign-in Sign In
+  script(src='js/login.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js')
